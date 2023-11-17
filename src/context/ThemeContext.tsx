@@ -42,8 +42,6 @@ export const ThemeContextProvider: React.FC<ThemeProviderProps> = ({
   const [theme, setTheme] = useState<Theme>(() => getFromLocalStorage());
 
   useEffect(() => {
-    console.log({ theme });
-
     document.body.classList.toggle("dark", theme === "dark");
     localStorage.setItem("theme", theme);
   }, [theme]);
