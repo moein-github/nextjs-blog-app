@@ -5,10 +5,10 @@ import Menu from "@/components/Menu";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Featured />
       <CategoryList />
-      <div className="">
+      <div>
         <CardList />
         <Menu />
       </div>

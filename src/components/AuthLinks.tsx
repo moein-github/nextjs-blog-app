@@ -1,3 +1,19 @@
+import Link from "next/link";
+
 export default function AuthLinks() {
-  return <div>AuthLinks</div>;
+  // temporary
+  const status = "notauthenticated";
+
+  return (
+    <>
+      {status === "notauthenticated" ? (
+        <Link href="/login">Login</Link>
+      ) : (
+        <>
+          <Link href="/write">Write</Link>
+          <span className="cursor-pointer">Logout</span>
+        </>
+      )}
+    </>
+  );
 }
