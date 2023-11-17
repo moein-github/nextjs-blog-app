@@ -21,8 +21,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} w-screen overflow-x-hidden`}>
         <ThemeContextProvider>
-          <div className="min-h-screen bg-white text-black transition-colors duration-500 dark:bg-slate-900 dark:text-slate-100">
-            <div className="max-w-[475px] md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-[1366px] mx-auto md:px-10 xl:px-20">
+          <div className="min-h-screen bg-slate-50 text-black transition-colors duration-500 dark:bg-slate-900 dark:text-slate-50">
+            <div className="max-w-[470px] sm:max-w-xl md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-[1366px] mx-auto pt-5 px-5 md:px-10 xl:px-20">
               <Navbar />
               {children}
               <Footer />

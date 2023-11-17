@@ -18,7 +18,7 @@ export default function Navbar() {
         blog`app
       </div>
 
-      <div className="flex-1 flex items-center gap-4 xl:gap-x-5 text-lg xl:text-xl">
+      <div className="flex-1 flex justify-end sm:justify-start items-center gap-4 xl:gap-x-5 text-lg xl:text-xl">
         <ThemeToggle />
         <Link href="/" className="hidden sm:block">
           Homepage
