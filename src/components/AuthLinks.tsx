@@ -32,7 +32,7 @@ export default function AuthLinks() {
       </div>
 
       {open && (
-        <div className="absolute top-24 left-0 bg-slate-50 dark:bg-slate-900 h-screen w-full flex sm:hidden flex-col justify-center items-center gap-y-12 text-4xl">
+        <div className="absolute top-20 left-0 bg-slate-50 dark:bg-slate-900 h-screen w-full flex sm:hidden flex-col justify-center items-center gap-y-12 text-4xl">
           <Link href="/">Homepage</Link>
           <Link href="/">Contact</Link>
           <Link href="/">About</Link>
