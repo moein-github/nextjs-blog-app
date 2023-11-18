@@ -18,7 +18,7 @@ export default function ThemeToggle() {
       <div
         className={`w-4 h-4 rounded-full bg-white absolute ${
           theme === "dark"
-            ? "right-[3px] bg-slate-900"
+            ? "right-[3px] bg-slate-800"
             : "left-[3px] bg-slate-50"
         }`}
       ></div>
